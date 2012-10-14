@@ -47,3 +47,10 @@ if 'VIRTUAL_ENV' in os.environ:
     execfile(activate_this, dict(__file__=activate_this))
 EOF
 
+" Activate django snippets for python and html files
+autocmd FileType python set ft=python.django
+autocmd FileType html set ft=htmldjango.html
+
+"set laststatus=2
+"set statusline=[%l,%v,%p%%] %{fugitive#statusline()}
+

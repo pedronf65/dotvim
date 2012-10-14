@@ -1,0 +1,26 @@
+
+From LM 59 - april 2012
+
+Using Pathogen to activate vim extensions.
+Two folders:
+autoload -> Pathogen
+bundle -> installed extensions
+
+.vimrc is a soft link to .vim/vimrc
+
+
+extensions:
+pep8: recomended python code rules
+pyflakes: python syntax validation
+MiniBufferExplorer: tab manager
+Command-T: quick file open -> <\> + t
+NERD Tree: file navigation and open -> F9
+TagList: keyword navigation -> F8
+SuperTab: auto completion -> TAB; activate Django completion -> F10
+PyDoc: python documentation
+RopeVim: code navigation; goto definition -> F6; rename -> F7
+TaskList: task list management (TODO, FIXME!) NOT INSTALLED...
+SnipMate: snippets management
+snipmate_for_django
+Gundo: vim file change history
+
