@@ -23,4 +23,5 @@ TaskList: task list management (TODO, FIXME!) NOT INSTALLED...
 SnipMate: snippets management
 snipmate_for_django
 Gundo: vim file change history
-
+Pytest: call python unitary tests
+fugitive: git control from vim
